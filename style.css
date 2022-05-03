@@ -1,0 +1,61 @@
+img {
+    float: right;
+  }
+  button{
+      font-size: 30px;
+  }
+  p{
+      font-size: 20px;
+  }
+  .navbar ul{
+    list-style: none;
+    font-weight: bold;
+    float: right;
+    display: flex;
+     padding-top:0px;
+     background-color:white;
+     line-height: 50px;
+     margin-top: 0px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+    
+    
+    
+}
+.navbar ul li a:hover{
+    color:white;
+    background-color:gray;
+}
+h1{
+    float:left;
+        margin-top: 5px;
+     display: inline-block;
+     background-color:white;
+     margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(128, 128, 128);
+
+}
+.g{
+    font-size: 30px;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    margin: 20px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
